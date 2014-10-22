@@ -36,3 +36,6 @@ Auto Refreshing: By default, node doesn’t automatically refresh our server eve
 ** Needed to install modulus globally to access my data base.  Currently have an account with minacristobol@gmail.com
 
 ** Doesn't specify on modulus site what a "connection url" is, but does say, "project url is: spatulaappauth-31108.onmodulus.net"
+
+
+Problem with viewing the app so far... Tomcat is running on my local host: http://localhost:8080/ and I do not see the node auth homepage that was created in views/index.ejs. Furthermore there is a continued problem from running nodemon and server.js.  App has crashed again but for different reason. This time there is an errror line 72 of events.js.  Issue is, I can't seem to find this file and I certainly don'y remeber changing it.  Isen't `throw er` usually `throw err;`  ?
