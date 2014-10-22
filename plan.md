@@ -25,3 +25,14 @@ http://scotch.io/tutorials/javascript/easy-node-authentication-setup-and-local
  Passport stuff will help us authenticating with different methods.
  Connect-flash allows for passing session flashdata messages.
  Bcrypt-nodejs gives us the ability to hash the password. I use bcrypt-nodejs instead of bcrypt since it is easier to set up in windows.
+
+
+Auto Refreshing: By default, node doesn’t automatically refresh our server every time we change files. To do that we’ll use nodemon. Just install with: npm install -g nodemon and use with: nodemon server.js
+** This command doesn't work straight out of the box.  It works with just `npm install nodemon` but not `npm install -g nodemon`.  
+** Had to use: `sudo npm install -g nodemon` as root user.
+
+** Need to set up a mongoDB database at: https://modulus.io/
+
+** Needed to install modulus globally to access my data base.  Currently have an account with minacristobol@gmail.com
+
+** Doesn't specify on modulus site what a "connection url" is, but does say, "project url is: spatulaappauth-31108.onmodulus.net"
